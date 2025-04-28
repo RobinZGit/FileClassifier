@@ -1,1 +1,20 @@
 
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>МЕДИЦИНСКИЕ ДОКУМЕНТЫ</title>
+    <script>
+    </script>
+</head>
+ 
+<body  onload="loadData()" >
+
+<div id = "delimiter1" style="height:5px;width:100%"></div>
+<div id="externalcall" style="height:20px;width:100%;background-color:red;display:block"> ПЕРЕД ПЕРЕХОДОМ ПО ССЫЛКЕ НЕ ЗАБУДЬТЕ ВКЛЮЧИТЬ STAYALIVE.
+</div>
+ <button id="btnImportTrain" style="height:80px;width:50%" onclick='alert(fGetRandomSelected( "[ВЫБОР]2[ДЕЛ БЕЗ ПОВТОРЕНИЙ ИЗ]<дело1>:<дело2>:<дело3>:<дело4>:<дело5>[КАК]1:4:7:5:2" ))'> fGetRandomSelected </button>
+
+<script>
+ const TXT_BTN_FINISHED = "Тренировка завершена";
+ var Gl_State = TXT_BTN_NOTSTARTED;
+ var Gl_IsFinished =false
